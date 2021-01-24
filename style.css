@@ -1,0 +1,414 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#back{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+#nav{position: relative;
+    width: 84%;
+    height: 120px;
+    background-color: black;
+}
+
+#rightnav{position: absolute;
+    width: 16%;
+    height: 75%;
+    right: 0%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+}
+#rightnav i{
+    color: black;
+    margin-top: 48px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#box{position: absolute;
+    width: 50.5%;
+    height: 3%;
+    top: 72%;
+    left: 40.8%;
+    background-color: yellow;
+    
+}
+#smallbox{position: absolute;
+    top: 54%;
+    left: 40.8%;
+    width: 1.3%;
+    height: 20%;
+    background-color:yellow;
+}
+#back img{
+    position: absolute;
+    left: 42%;
+    width: 42%;
+    
+    margin-top: 42px;
+  
+}
+#nav img{
+    position: absolute;
+    width: 17%;
+    left: 43px;
+    bottom: 2px;
+}
+#navlink{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    left: 55%;
+    width: 40%;
+    height: 50px;
+    background-color: black;
+}
+#navlink a{
+    font-family: Montserrat;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+#navlink a:hover{
+    color: yellow;
+}
+
+#back h6{
+    font-family: Montserrat;
+    color:rgb(214, 196, 30);
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#back p{
+    font-family: Montserrat;
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    font-size: 60px;
+    margin-top: 18px;
+}
+#images{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 270px;
+    margin-left: 50px;
+    background-image: url(https://images.unsplash.com/photo-1550926781-93aef598b010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#back #name{
+    color: rgb(230, 225, 225);
+    margin-top: 277px;
+    font-family: Montserrat;
+    margin-left: 128px;
+    font-size: 16px;
+}
+#back #date{
+    font-family: Montserrat;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 128px;
+    color: rgb(136, 132, 132);
+}
+#bottomright{display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 180px;
+    
+    margin-top: 62px;
+    margin-left: 30%;
+}
+#bottomright .vister{
+    display: flex;
+    justify-content: space-between;
+    
+    background-position: center;
+    width: 268px;
+    height: 100%;
+    
+}
+#bottomright #one{
+    background-image: url(https://images.unsplash.com/photo-1506506447188-78e2a1051d9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+#bottomright #two{
+    background-image: url(https://images.unsplash.com/photo-1470653503930-01819ee7ec83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+#bottomright #three{
+    background-image: url(https://images.unsplash.com/photo-1506126944674-00c6c192e0a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-position: center;
+    background-size: cover;
+    opacity: 50%;
+}
+#bottomright #one #text{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 67px;
+    opacity: 80%;
+    font-weight: 510;
+}
+#bottomright #two #text1{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 67px;
+    opacity: 190%;
+    font-weight: 510;
+}
+#bottomright #three #text2{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 67px;
+    opacity: 190%;
+    font-weight: 510;
+}
+#bottomright #four #text3{
+    color: white;
+    font-size: 44px;
+    margin-left: 100px;
+    margin-top: 67px;
+    
+    font-weight: 580;
+}
+
+#body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#body video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -99999;
+    width: 100%;
+    opacity: 95%;
+}
+#body h2{position: absolute;
+    margin-left: 50px;
+    color:black;
+    font-size: 60px;
+    margin-top: 100px;
+    font-weight: 600;
+    background-image: url(https://images.unsplash.com/photo-1511468269738-5bcbe1420127?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    background-position:top;
+}
+#body hr{
+    margin-top: 450px;
+    position: absolute;
+    width: 33%;
+    margin-left: 100px;
+    color:white;
+    opacity: 35%;
+    border: .2px solid;
+    height: 1px;
+}
+#body p{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 350px;
+    color:white;
+    opacity: 35%;
+}
+#body button{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 100px;
+    width: 12%;
+    height: 40px;
+    border-radius: 2px;
+    border: 0.5px solid;
+    border-color: white;
+    background-color:transparent;
+    color: white;
+}
+#body button:hover{
+    cursor: pointer;
+    color:black;
+    background-color:white;
+}
+#main{position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#main #heading{
+    width: 64%;
+    position: absolute;
+    height: 40px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+#main img{
+    width: 40%;
+    right: 50px;
+    position: absolute;
+    margin-top: 150px;
+}
+#main #section{position: absolute;
+    width: 52%;
+    height: 500px;
+    background-color: black;
+    margin-left: 50px;
+    margin-top: 180px;
+}
+#section p{
+    color: white;
+    opacity: 35%;
+    margin-left: 50px;
+}
+
+#section input{
+    width: 60%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 1px;
+    border: none;
+    padding: 10px;
+}
+#section input::placeholder {
+    color:black;
+    opacity: 60%;
+    font-size: 14px;
+}
+#section text{
+    background-color:black;
+    color: white;
+}    
+#section #send{position: absolute;
+    margin-top: 350px;
+    margin-left: 50px;
+    width: 18%;
+    height: 40px;
+    border-radius: 2px;
+    border: 0.5px solid;
+    border-color: white;
+    background-color:transparent;
+    color: white;
+}
+#section #send:hover{
+    cursor: pointer;
+    color:black;
+    background-color:white;
+}
+#container{position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1441639087627-2b18e64870a4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1789&q=80);
+    background-size: cover;
+    opacity: 98%;
+    background-position:  top;
+}
+#container p{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 260px;
+    color: white;
+    opacity: 80%;
+    font-weight: 270;
+}
+#container input{
+   position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: 150px;
+    width: 860px;
+    height: 60px;
+    border: none;
+    border-radius: 1px;
+    outline: none;
+    padding: 10px;
+}
+#container::placeholder{
+    opacity: 60%;
+    font-size: 18px;
+}
+#container i{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 1140px;
+    font-size: 22px;
+    color:black;
+    cursor: pointer;
+    opacity: 80%;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    color: rgb(22, 43, 71);
+    background-color: rgb(5, 5, 5);
+    padding: 0 50px;
+}
+#footer h2{
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+}
+#footer p{
+    color: white;
+    opacity: 80%;
+}
+    
+
+   
+    
+    
+    
+
+
+   
+    
+    
+    
+
+    
+    
+
+
+
+    
+    
+    
+
+    
+    
+
+
+
+   
+
